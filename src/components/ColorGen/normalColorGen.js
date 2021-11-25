@@ -30,11 +30,12 @@ export const ColorGen = () => {
         ctx.fillRect(i, j, 1, 1)
       }
     }
+    document.getElementById('b2').innerText = 'Sort By Luminance'
+    document.getElementById('b1').innerText = 'Generate New Colours'
   }
 
   //Sort the colours by luminance
   const sortLu = () => {
-    draw()
     const canvas = document.getElementById('canvas')
     const ctx = canvas.getContext('2d')
     const width = canvas.width
@@ -58,17 +59,18 @@ export const ColorGen = () => {
         ctx.fillRect(i, j, 1, 1)
       }
     }
+    document.getElementById('b2').innerText = 'Press me again!'
   }
 
   return (
     <div>
       <canvas id="canvas" width="128" height="256" />
       <div>
-        <button className="button" onClick={draw}>
-          <p>Generate Random Colours</p>
+        <button className="button" id="b1" onClick={draw}>
+          <p>Press me to start</p>
         </button>
-        <button className="button" onClick={sortLu}>
-          Sort by luminance
+        <button className="button" id="b2" onClick={sortLu}>
+          Sort By Luminance
         </button>
       </div>
     </div>

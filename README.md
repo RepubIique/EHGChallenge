@@ -1,5 +1,7 @@
 # Education Horizons Coding Challenge
 
+![](./docs/recording.gif)
+
 ## Description
 
 For this challenge, we would like to see an application that will produce an image in which each colour occurs exactly once — with no repition and no unused colours. For the purpose of this challenge; colours are made up of three components — red, green, and blue. We require you to break each colour component into 32 steps — 8, 16, 24 .. 256 — this means you will have 32,768 discrete colours to utilise.

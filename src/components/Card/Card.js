@@ -8,8 +8,6 @@ export const Card = (props) => {
     <div className="card">
       <div className="card-content">
         <ColorGen />
-        <h3>{props.title}</h3>
-        <p>{props.content}</p>
       </div>
     </div>
   )

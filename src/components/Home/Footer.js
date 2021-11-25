@@ -12,7 +12,7 @@ export const Footer = () => {
         backgroundColor: '#8ABAD3FF',
       }}
     >
-      <p style={{ color: '#f7ced7ff', margin: 'revert' }}>Built By Kendrick Bong</p>
+      <h4 style={{ color: '#f7ced7ff', margin: 'revert' }}>Built By Kendrick Bong</h4>
     </footer>
   )
 }
