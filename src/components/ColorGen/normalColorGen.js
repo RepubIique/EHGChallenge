@@ -1,7 +1,6 @@
-//create react component named colorGen
-
 import React from 'react'
 
+//create react component named colorGen
 export const ColorGen = () => {
   //generate random color
   const randomColor = (i) => {
@@ -20,6 +19,7 @@ export const ColorGen = () => {
     const width = canvas.width
     const height = canvas.height
     const pixels = []
+    // populate canvas with random colours
     for (let i = 0; i < width * height; i++) {
       pixels.push(randomColor())
     }
@@ -63,7 +63,7 @@ export const ColorGen = () => {
     <div>
       <canvas id="canvas" width="128" height="256" />
       <div>
-        <button onClick={draw}>Draw</button>
+        <button onClick={draw}>Draw random colors</button>
         <button onClick={sortLu}>Sort by luminance</button>
       </div>
     </div>

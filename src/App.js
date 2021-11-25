@@ -1,12 +1,10 @@
-import logo from './logo.svg'
 import './App.css'
-import { ColorGen } from './components/ColorGen/normalColorGen'
+import { HomePage } from './components/Home/HomePage'
 
 function App() {
   return (
     <div className="App">
-      <img src={logo} className="App-logo" alt="logo" />
-      <ColorGen />
+      <HomePage />
     </div>
   )
 }
