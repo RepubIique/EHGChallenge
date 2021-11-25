@@ -7,7 +7,9 @@ export const HomePage = () => {
   return (
     <React.Fragment>
       <NavBar />
-      <Card />
+      <div className="container">
+        <Card />
+      </div>
       <Footer />
     </React.Fragment>
   )

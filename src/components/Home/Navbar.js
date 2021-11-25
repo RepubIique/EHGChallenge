@@ -9,12 +9,14 @@ export const NavBar = () => {
         top: 0,
         width: '100%',
         height: '60px',
-        backgroundColor: '#2546CE',
+        backgroundColor: '#8ABAD3FF',
       }}
     >
       <div className="container">
         <div className="navbar-logo">
-          <h4 className="navbar-logo-link">EHG Coding Challenge</h4>
+          <h4 style={{ color: '#f7ced7ff' }} className="navbar-logo-link">
+            EHG Coding Challenge
+          </h4>
         </div>
       </div>
     </header>

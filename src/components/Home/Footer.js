@@ -9,10 +9,10 @@ export const Footer = () => {
         bottom: 0,
         width: '100%',
         height: '60px',
-        backgroundColor: '#2546CE',
+        backgroundColor: '#8ABAD3FF',
       }}
     >
-      <p>Built By Kendrick Bong</p>
+      <p style={{ color: '#f7ced7ff', margin: 'revert' }}>Built By Kendrick Bong</p>
     </footer>
   )
 }

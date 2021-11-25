@@ -1,4 +1,5 @@
 import React from 'react'
+import './colorGen.css'
 
 //create react component named colorGen
 export const ColorGen = () => {
@@ -63,8 +64,12 @@ export const ColorGen = () => {
     <div>
       <canvas id="canvas" width="128" height="256" />
       <div>
-        <button onClick={draw}>Draw random colors</button>
-        <button onClick={sortLu}>Sort by luminance</button>
+        <button className="button" onClick={draw}>
+          <p>Generate Random Colours</p>
+        </button>
+        <button className="button" onClick={sortLu}>
+          Sort by luminance
+        </button>
       </div>
     </div>
   )
